@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<meta name="keywords" content="remeras, buzos, remeras personalizadas, buzos personalizados, remeras con frases, buzos con frases">
+	<title>Contactate con MAWI, prendas personalizadas</title>
+	<meta name="description" content=" Contactanos para tener más información y sacarte todas las dudas.">
+	<link rel="stylesheet"href="estilos_index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a href="index.html" class="navbar-brand"><img src="./img/logo.jpg" height="100px" alt="logo"class="imagenLogo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+						    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item dropdown">
+						 	<a class="nav-link dropdown-toggle" href="producto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						    Productos
+						    </a>
+						    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						        <li><a class="dropdown-item" href="producto.html#Remeras">Remeras</a></li>
+						        <li><a class="dropdown-item" href="producto.html#Buzos">Buzos</a></li>
+						    </ul>
+						</li>
+						<li class="nav-item">
+						    <a class="nav-link" href="contactos.html">Contacto</a>
+						    </li>
+						    <li class="nav-item">
+						    	<a class="nav-link" href="faq.html">FAQ</a>
+						    </li>
+					</ul>
+				</div>
+			</div>
+		</nav><!--aca termina el menú-->
+	</header>
+	<h1 class="centrado mayuscula">Formulario de contacto</h1>
+	<form class="formatoFormulario">
+		<fieldset><label for="Nombre">Nombre:</label>
+		<input type="text" name="nombre" placeholder="nombre"> <br>
+		<label for="Correo">Correo:</label>
+		<input type="email" namw="correo" placeholder="nombre@ejemplo.com"><br>
+		<label for="Telfono">Telefono:</label>
+		<input type="text" name="Telefono" placeholder="Telefono"> <br>
+		<p>Género</p>
+			<p>Femenino</p>
+			<input type="radio" name="Genero"value="Femenino">
+			<p>Masculino</p>
+			<input type="radio" name="Genero"value="Masculino">
+			<p>Prefiero no declararlo</p>
+		<input type="radio" name="Genero"value="Prefiero no declararlo"><br>
+		<label for="comentarios">Comentarios</label><br>
+		<textarea name="Comentarios" rows="4" cols="22"placeholder="Dejanos tu comentario"></textarea><br>
+		<div>Acepta terminos y condicionzes</div>
+		<input type="checkbox" name="acepta"value="1"><br>
+		<input class="formButton" type="submit"value="Enviar">
+		<input class="formButton" type="reset"value="Limpiar formulario">
+		</fieldset>
+	</form>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+<footer class="menuFlex">
+	<div>
+		<h3>Nuestras Redes</h3>
+		<article>
+			<img src="./img/logoInstagram.png" class="rrss">
+			<img src="./img/logoFacebook.png" class="rrss">
+		</article>
+	</div>
+	<div>
+		<h3>Subscribite al newslatter</h3>
+		<form>
+			<label for="Correo">Correo:</label>
+			<input type="email" namw="correo" placeholder="nombre@ejemplo.com"><br>
+		</form>
+	</div>
+</footer>
+</html>
